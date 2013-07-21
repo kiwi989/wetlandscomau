@@ -1,0 +1,163 @@
+#main_image_1 {
+position: absolute;
+height: 150px;
+width: 850px;
+top: 40px;
+left: 0px;
+margin-left: auto;
+margin-right: auto; 
+z-index: 10; 
+}
+
+#main_image_1.maintitle {
+background: url('images/nav/title.jpg');
+height: 150px;
+width: 850px;
+}
+
+#main_image_1.abouttitle {
+background: url('images/nav/about.jpg');
+position: absolute;
+height: 150px;
+width: 850px;
+}
+
+#main_image_1.profilestitle {
+background: url('images/nav/profiles.jpg');
+position: absolute;
+height: 150px;
+width: 850px;
+}
+
+#main_image_1.contacttitle {
+background: url('images/nav/contact.jpg');
+position: absolute;
+height: 150px;
+width: 850px;
+}
+
+#bar {
+background: url('images/nav_back.png') repeat-x #ffffff;
+position: relative; 
+top: 0px;
+left: 0px;
+height: 180px;
+width: 100%; 
+margin-left: auto;
+margin-right: auto;
+}
+
+#nav_container {
+background: url('images/nav_back.png') repeat-x;
+position: relative;
+height:  190px;
+width: 850px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#nav_container ul {
+margin: 0px;
+padding: 0px;
+}
+
+#nav_container ul li {
+list-style-type: none;
+padding: 0; 
+margin: 0; 
+display: block;
+float: left; 
+text-align: center;
+}
+
+#nav_container a {
+color: #d0d0d0; 
+text-decoration: none; 
+display: block; 
+padding: 8px; 
+}
+
+#nav_container a:hover {
+background: #454545; 
+color: #ffffff; 
+border: 1px #404850 solid; 
+text-decoration: underline;
+}
+
+.menu { 
+font-family: Verdana, Arial, Sans-serif; 
+font-size: 11px; 
+font-weight: bold; 
+line-height: 12px; 
+color: #000000;
+text-decoration: none;}
+
+a.menu { 
+color: #c0c8d0; 
+text-decoration: none; 
+}
+
+a.menu:hover { 
+color: #ffffd0; 
+text-decoration: underline; 
+}
+
+.no_click_menu { 
+top: 7px;
+font-family: Verdana, Arial, Sans-serif; 
+font-size: 11px; 
+font-weight: bold; 
+line-height: 12px; 
+color: #c0c8d0;
+text-decoration: none;
+}
+
+#nav_container {
+position: relative;
+}
+
+#textContainer {
+position: absolute;
+top: 5px;
+left: 100px;
+}
+
+#nav_image_1 {
+background: #ffffff no-repeat;
+position: absolute;
+height: 150px;
+width: 850px;
+left: -9000px;
+top: 40px;
+z-index: 11;
+}
+
+#nav_container li:hover #nav_image_1.home {
+background: url('images/nav/title.jpg');
+left: 0px;
+}
+
+#nav_container li:hover #nav_image_1.about {
+background: url('images/nav/about.jpg');
+left: 0px;
+}
+
+#nav_container li:hover #nav_image_1.profiles {
+background: url('images/nav/profiles.jpg');
+left: 0px;
+}
+
+#nav_container li:hover #nav_image_1.contact {
+background: url('images/nav/contact.jpg');
+left: 0px;
+}
+
+
+#space {
+	font-family: corbel, serif;
+	font-weight: bold;
+	font-size: 14px;
+	position: relative;
+	left: 400px;
+	width: 450px;
+}

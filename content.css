@@ -1,0 +1,306 @@
+/*Main Profile Content Styles*/
+
+#writing_container {
+position: relative; 
+width: 900px; 
+top: 18px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#writing {
+position: relative;
+top: 0px;
+height: 110px;
+width: 850px;
+margin-left: auto;
+margin-right: auto;
+text-align: left; 
+}
+
+#about_container {
+background: #d1d2d4;
+position: absolute;
+top: 0px;
+height: 110px;
+width: 850px;
+color: #ffffff;
+margin-left: auto;
+margin-right: auto;
+}
+
+#writing_left_about {
+position: absolute; 
+width: 615px;
+left: 30px;
+top: 10px;
+text-align: left;
+}
+
+#writing_right_about {
+position: relative;  
+width: 200px;
+left: 650px;
+top: 10px;
+}
+
+/*End Main Profile Content Styles*/
+
+/*Profile Styles*/
+
+#profile1 {
+position: relative; 
+width: 850px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+
+#profile_img {
+position: absolute; 
+width: 304px;
+top: 15px;
+left: 100px;
+}
+
+#profile_text {
+position: absolute; 
+top: 0px;
+left: 380px;
+width: 400px;
+font-size: 13px;
+}
+
+/*End Profile Styles*/
+
+/*corperate social statment*/
+
+#writing_left_csrs {
+position: relative; 
+width: 815px;
+left: 30px;
+top: 10px;
+text-align: left;
+}
+
+#about_purpose {
+position: absolute; 
+left: 580px;
+margin-top: -80px;
+}
+
+/*end corperate social statment quality policy*/
+
+/*enviro policy ohspolicy*/
+#writing_common {
+	position: relative;
+	width: 850px; 
+	text-align: left;	
+}
+/*end enviro policy ohs policy quality policy*/
+
+/*contact*/
+
+#contact_container {
+	position: relative; 
+	top: 15px;
+	height: 350px;
+	width: 850px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;	
+	font-size: 13px;
+}
+
+#contact_content {
+	position: relative; 
+	top: 10px;
+	height: 20px; 
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#contact_bar {
+	background: #ffffff;
+	position: relative; 
+	top: 0px;
+	left: 0px;
+	height: 30px;
+	width: 100%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact_nav_container {
+	background: #000000;
+	position: relative;
+	height:  30px;
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact_nav_container ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#contact_nav_container ul li {
+	list-style-type: none;
+	padding: 0; 
+	margin: 0; 
+	display: block;
+	float: left; 
+	text-align: center;
+}
+
+#contact_nav_container a {
+	color: #d0d0d0; 
+	text-decoration: none; 
+	display: block; 
+	padding: 8px; 
+}
+
+#contact_nav_container a:hover {
+	background: #454545; 
+	color: #ffffff; 
+	border: 1px #404850 solid; 
+	text-decoration: underline;
+}
+
+#contact_nav_image {
+	background: #ffffff no-repeat;
+	position: absolute;
+	height: 400px;
+	width: 850px;
+	left: -9000px;
+	top: 30px;
+	z-index: 11;
+}
+
+#contact_nav_container li:hover #contact_nav_image.finance {
+	left: 0px;
+}
+
+#contact_nav_container li:hover #contact_nav_image.goldcoast {
+	left: 0px;
+}
+
+#contact_nav_container li:hover #contact_nav_image.sydney {
+	left: 0px;
+}
+
+#contact_nav_container li:hover #contact_nav_image.brisbane {
+	left: 0px;
+}
+
+/*end contact*/
+
+/*main profiles container*/
+
+#top_container {
+	position: relative; 
+	top: 20px; 
+	width: 850px; 
+	height: 250px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#profile_links {
+	position: absolute; 
+	left: 5px;
+	width: 415px; 
+	height: 250px; 	
+	font-size: 13px;
+	padding-right: 5px;
+	text-align: left;
+	border-right-style: solid;
+	border-width: 1px;
+	border-color: #d1d2d4;
+}
+
+#profile_links ul {
+	padding: 0px;
+	padding-left: 15px;
+	margin: 0px;	
+}
+
+#profile_links ul li {
+	padding: 0;
+	padding-top: 1px; 
+	margin: 0; 
+	left: 0px; 
+	text-align: left;
+}
+
+#clients {
+	position: absolute; 
+	left: 433px;
+	width: 417px; 
+	height: 250px; 	
+	font-size: 13px;
+	text-align: left;
+}
+
+#clients ul {
+	padding: 0px;
+	padding-left: 15px;
+	margin: 0px;	
+}
+
+#clients ul li {
+	list-style-type: none;
+	padding: 0;
+	padding-top: 1px; 
+	margin: 0; 
+	left: 0px; 
+	text-align: left;
+}
+
+
+#full_profile_text {
+position: relative; 
+top: 0px;
+left: 40px; 
+width: 430px; 
+text-align: left;
+}
+
+#full_profile_img {
+position: absolute; 
+width: 304px;
+left: 520px;
+}
+
+/*end main profiles container*/
+
+.purpose_about {
+text-align: left;
+width: 350px;
+}
+
+#people { 
+text-align: left; 
+width: 850px; 
+margin-left: auto; 
+margin-right: auto;
+}
+
+/*Client Styles*/
+
+#client_box {
+	position: relative;
+	top: 30px;
+	left: 0px;
+	width: 850px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+/*End Client Styles*/

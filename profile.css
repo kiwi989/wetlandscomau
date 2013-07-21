@@ -1,0 +1,98 @@
+.profile{
+	margin-bottom: 5px;
+	position: absolute;
+	overflow: hidden;
+	left: -15px;
+}
+
+	.profile_main,
+	.profile_main ol li {
+		height: 400px;
+		width: 455px;
+	}
+
+	#content .profile {
+		margin-bottom: 2px;
+	}
+
+	.profile ol {
+		margin: 0;
+		list-style: none;
+		position: absolute;
+		left: 0;
+		width: 100%;
+	}
+
+	.profile ol li {
+		margin: 0;
+		float: left;
+		position: relative;
+		width: 100%;
+	}
+
+	
+	.profile .profile_nav {
+		background-image: url(images/sprite_p.png);
+		background-position: 0 256px;
+	}
+
+	.profile .profile_content {
+		display: block;
+		position: absolute;
+		top: 225px;
+		bottom: 0;
+		left: 0;
+		right: 40;
+		padding: 5px 10px;
+		cursor: pointer;
+		text-decoration: none;
+	}
+
+		.profile .black .profile_content {
+			background-position: 0 -56px;
+		}
+
+		.profile .white .profile_content {
+			background-position: 0 -156px;
+		}
+
+	.profile_content .profile_title {
+		font-weight: bold;
+		margin: 0;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
+	}
+
+	.profile_content .profile_description {
+		margin: 0 0 .3em;
+		line-height: 1em;
+	}
+
+	.profile_nav {
+		display: block;
+		cursor: pointer;
+		width: 15px;
+		height: 28px;
+		position: absolute;
+		bottom: 9px;
+		text-indent: -9000px;
+	}
+
+		#profile_prev {
+			background-position: 0 -28px;
+			right: 34px;
+		}
+
+			#profile_prev.inactive {
+				background-position: 0 0;
+				cursor: default;
+			}
+
+		#profile_next {
+			background-position: -15px -28px;
+			right: 8px;
+		}
+
+			#profile_next.inactive {
+				background-position: -15px 0;
+				cursor: default;
+			}

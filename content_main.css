@@ -1,0 +1,99 @@
+/*top container styles - client and service lists*/
+
+#top_container {
+	position: relative; 
+	top: 20px; 
+	width: 850px; 
+	height: 250px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#services {
+	position: absolute; 
+	left: 5px;
+	width: 415px; 
+	height: 250px; 	
+	font-size: 13px;
+	padding-right: 5px;
+	text-align: left;
+	border-right-style: solid;
+	border-width: 1px;
+	border-color: #d1d2d4;
+}
+
+#services ul {
+	padding: 0px;
+	padding-left: 15px;
+	margin: 0px;	
+}
+
+#services ul li {
+	padding: 0;
+	padding-top: 1px; 
+	margin: 0; 
+	left: 0px; 
+	text-align: left;
+}
+
+#clients {
+	position: absolute; 
+	left: 433px;
+	width: 417px; 
+	height: 250px; 	
+	font-size: 13px;
+	text-align: left;
+}
+
+#clients ul {
+	padding: 0px;
+	padding-left: 15px;
+	margin: 0px;	
+}
+
+#clients ul li {
+	list-style-type: none;
+	padding: 0;
+	padding-top: 1px; 
+	margin: 0; 
+	left: 0px; 
+	text-align: left;
+}
+
+/*end top container styles*/
+
+/*location and contact button*/
+
+#bottom_container {
+	position: relative;
+	top: 35px; 
+	height: 100px;
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-style: solid;
+	border-width: 1px;
+}
+
+#contact_button_main {
+	background: url('images/buttons/main_contact.jpg') no-repeat;
+	position: absolute; 
+	top: 10px;
+	left: 42%;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#location_text {
+	position: absolute;
+	top: 60px;
+	width: 850px;
+	height: 20px;
+	text-align: center;
+}
+
+/*end location and contact button*/
+
